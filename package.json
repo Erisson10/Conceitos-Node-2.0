@@ -1,0 +1,15 @@
+{
+  "name": "conceitos-node",
+  "version": "1.0.0",
+  "description": "Esse projeto é um conceito básico para entender melhor o NODE",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "\"Erisson de Oliveira\",",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}

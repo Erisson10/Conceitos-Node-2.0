@@ -1,9 +1,12 @@
 
 
-import express from 'express'
+import express, { response } from 'express'
 
 const app = express()
 
-app.get()
+app.get('/usuarios', (req, res) => {
+
+    req.send("Olá, rota acessada com sucesso!")
+})
 
 app.listen(3000)
